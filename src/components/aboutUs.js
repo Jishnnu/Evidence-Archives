@@ -1,31 +1,26 @@
 import { Row, Col, Card } from "react-bootstrap";
-import img from "../assets/police.svg";
-import karthikpic from "../assets/karthik.png";
-import jishnupic from "../assets/jishnu.png";
-import harshitpic from "../assets/harshitpic.png";
-import img2 from "../assets/sunny.png";
 import React from "react";
 
 const teamData = [
   {
-    personName: "Karthik Banjan [Team Lead]",
-    personRole: "Blockchain Management",
-    personImage: karthikpic,
+    personName: "Your_Name",
+    personRole: "Your_Role",
+    personImage: 'Your_Profile_Picture',
   },
   {
-    personName: "Harshit Singh",
-    personRole: "Website (Frontend)",
-    personImage: harshitpic,
+    personName: "Your_Name",
+    personRole: "Your_Role",
+    personImage: 'Your_Profile_Picture',
   },
   {
-    personName: "Jishnu Anilkumar",
-    personRole: "Website (Backend), Authentication, Cloud Services",
-    personImage: jishnupic,
+    personName: "Your_Name",
+    personRole: "Your_Role",
+    personImage: 'Your_Profile_Picture',
   },
   {
-    personName: "Sunny Singh",
-    personRole: "Blockchain Management",
-    personImage: img2,
+    personName: "Your_Name",
+    personRole: "Your_Role",
+    personImage: 'Your_Profile_Picture',
   },
 ];
 export default function AboutUs() {
