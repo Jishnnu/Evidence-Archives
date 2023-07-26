@@ -37,6 +37,7 @@
 .image-grid {
   justify-content: center;
 }
+
 Form {
   text-decoration: solid;
   text-transform: uppercase;
@@ -84,8 +85,7 @@ Form {
 }
 
 .sidebar {
-  position: fixed;
-  /* top: 0; */
+  position: fixed;  
   left: 0;
   height: 100%;
   width: 250px;

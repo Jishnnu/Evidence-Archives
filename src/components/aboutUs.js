@@ -1,26 +1,31 @@
 import { Row, Col, Card } from "react-bootstrap";
+import img from "../assets/police.svg";
+import karthikpic from "../assets/karthik.png";
+import jishnupic from "../assets/jishnu.png";
+import harshitpic from "../assets/harshitpic.png";
+import sunnypic from "../assets/sunny.jpeg";
 import React from "react";
 
 const teamData = [
   {
-    personName: "Your_Name",
-    personRole: "Your_Role",
-    personImage: 'Your_Profile_Picture',
+    personName: "Karthik Banjan [Team Lead]",
+    personRole: "Blockchain Management, Website Requirements",
+    personImage: karthikpic,
   },
   {
-    personName: "Your_Name",
-    personRole: "Your_Role",
-    personImage: 'Your_Profile_Picture',
+    personName: "Harshit Singh",
+    personRole: "Website (Frontend Design & Code - React Bootstrap)",
+    personImage: harshitpic,
   },
   {
-    personName: "Your_Name",
-    personRole: "Your_Role",
-    personImage: 'Your_Profile_Picture',
+    personName: "Jishnu Anilkumar",
+    personRole: "Website (Backend), Authentication, Storage, Cloud Services",
+    personImage: jishnupic,
   },
   {
-    personName: "Your_Name",
-    personRole: "Your_Role",
-    personImage: 'Your_Profile_Picture',
+    personName: "Sunny Singh",
+    personRole: "Documentation, Design Layout",
+    personImage: sunnypic,
   },
 ];
 export default function AboutUs() {
@@ -48,7 +53,7 @@ export default function AboutUs() {
         </div>
         <div className="aboutTitle">
           <p style={{ textAlign: "left" }}>
-            <i>Transforming ideas into reality:</i>&nbsp;            
+            <i>Transforming ideas into reality:</i>&nbsp;
             Four college students banded together to embark on a transformative journey of innovation and creativity, culminating in a remarkable final year project that stands as a testament to their passion, hard work, and perseverance.
           </p>
         </div>
@@ -68,7 +73,7 @@ export default function AboutUs() {
           </div>
         </Row>
       </Row>
-          <br></br>
+      <br></br>
     </div>
   );
 }

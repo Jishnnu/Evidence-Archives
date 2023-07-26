@@ -4,8 +4,16 @@ global.Buffer = Buffer;
 const path = require('path');
 const { BlobServiceClient } = require('@azure/storage-blob');
 const express = require('express');
-const multer = require('multer');
-const cors = require('cors');
+
+// Middleware for handling multipart/form-data. Primarily used for uploading files.
+const multer = require('multer'); 
+
+// HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) 
+//other than its own from which a browser should permit loading resources
+const cors = require('cors'); 
+
+// For POST, PATCH, or PUT HTTP request wherein the info needed is within the body.
+//Using body - parser allows you to access req.
 const bodyParser = require('body-parser');
 
 const app = express();
@@ -17,10 +25,10 @@ app.use(express.json());
 const upload = multer();
 const port = process.env.PORT || 5000;
 
-const connectionString = 'Your_Connection_String';
-const containerName = 'Your_Container_Name';
-const accountKey = 'Your_Account_Key';
-const accountName = 'Your_Acoount_Name';
+const connectionString = 'YOUR_AZURE_CONNECTION_STRING';
+const containerName = 'YOUR_AZURE_CONTAINER_NAME';
+const accountKey = 'YOUR_AZURE_ACCOUNT_KEY';
+const accountName = 'YOUR_AZURE_ACCOUNT_NAME';
 const blobServiceClient = BlobServiceClient.fromConnectionString(connectionString);
 const containerClient = blobServiceClient.getContainerClient(containerName);
 

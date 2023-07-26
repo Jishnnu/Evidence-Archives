@@ -8,12 +8,12 @@ import { getAuth } from "firebase/auth";
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "Your_API_Key",
-    authDomain: "Your_Authorized_Domain",
-    projectId: "Your_Project_ID",
-    storageBucket: "Your_Storage_Bucket",
-    messagingSenderId: "Your_Messaging_Sender_ID",
-    appId: "Your_Application_ID"
+    apiKey: "YOUR_FIREBASE_API_KEY",
+    authDomain: "YOUR_FIREBASE_AUTH_DOMAIN",
+    projectId: "court-document-management",
+    storageBucket: "YOUR_FIREBASE_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_FIREBASE_MESSAGING_SENDER_ID",
+    appId: "YOUR_FIREBASE_APP_ID"
 };
 
 // Initialize Firebase

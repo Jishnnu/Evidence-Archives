@@ -72,17 +72,17 @@
   </style>
   <script>
     window.addEventListener("load", () => {
-        const loader = document.querySelector(".loader");
+      const loader = document.querySelector(".loader");
 
-        loader.classList.add("loader--hidden");
+      loader.classList.add("loader--hidden");
 
-        loader.addEventListener("transitionend", () => {
-          // Check if loader is a child of document.body before removing
-          if (document.body.contains(loader)) {
-            document.body.removeChild(loader);
-          }
-        });
+      loader.addEventListener("transitionend", () => {
+        // Check if loader is a child of document.body before removing
+        if (document.body.contains(loader)) {
+          document.body.removeChild(loader);
+        }
       });
+    });
   </script>
 </head>
 
