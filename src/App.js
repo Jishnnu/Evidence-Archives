@@ -1,12 +1,10 @@
 import { Row, Col } from "react-bootstrap";
-import { FaCheckCircle } from 'react-icons/fa';
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { onAuthStateChanged } from 'firebase/auth';
 import "./App.css";
 import { auth } from "../src/firebase";
-import logo from "./logo.svg";
 import AppHeader from "./components/header";
 import MyForm from "./components/form";
 import Search from "./components/search";
