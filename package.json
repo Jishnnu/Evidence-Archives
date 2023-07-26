@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Jishnnu.github.io/Evidence-Archives/",
+  "homepage": "https://Jishnnu.github.io/Evidence-Archives",
   "name": "college-project",
   "version": "0.1.0",
   "private": true,
@@ -44,7 +44,7 @@
     "deploy": "gh-pages -d build",
     "start": "concurrently \"node server/index.js\" \"npm run react-start\"",
     "react-start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts  --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
