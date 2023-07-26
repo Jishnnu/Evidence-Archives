@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/Evidence-Archives/static/css/main.766382e3.css",
-    "main.js": "/Evidence-Archives/static/js/main.48c2d86f.js",
+    "main.js": "/Evidence-Archives/static/js/main.fa9707b3.js",
     "static/js/787.687cdfe9.chunk.js": "/Evidence-Archives/static/js/787.687cdfe9.chunk.js",
     "static/media/jishnu.png": "/Evidence-Archives/static/media/jishnu.71fe8ed6bde433315e58.png",
     "static/media/karthik.png": "/Evidence-Archives/static/media/karthik.43c450dfbd7860fc858a.png",
     "static/media/harshitpic.png": "/Evidence-Archives/static/media/harshitpic.a4670c91a55746fd683a.png",
     "static/media/sunny.jpeg": "/Evidence-Archives/static/media/sunny.2130e4f934c00d61480c.jpeg",
     "static/media/police.svg": "/Evidence-Archives/static/media/police.97028ffa2dc278b9ed0b0b946a6a096a.svg",
-    "static/media/logo.svg": "/Evidence-Archives/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Evidence-Archives/index.html",
     "main.766382e3.css.map": "/Evidence-Archives/static/css/main.766382e3.css.map",
-    "main.48c2d86f.js.map": "/Evidence-Archives/static/js/main.48c2d86f.js.map",
+    "main.fa9707b3.js.map": "/Evidence-Archives/static/js/main.fa9707b3.js.map",
     "787.687cdfe9.chunk.js.map": "/Evidence-Archives/static/js/787.687cdfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.766382e3.css",
-    "static/js/main.48c2d86f.js"
+    "static/js/main.fa9707b3.js"
   ]
 }
