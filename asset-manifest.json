@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.766382e3.css",
-    "main.js": "/static/js/main.6596e858.js",
-    "static/js/787.687cdfe9.chunk.js": "/static/js/787.687cdfe9.chunk.js",
-    "static/media/jishnu.png": "/static/media/jishnu.71fe8ed6bde433315e58.png",
-    "static/media/karthik.png": "/static/media/karthik.43c450dfbd7860fc858a.png",
-    "static/media/harshitpic.png": "/static/media/harshitpic.a4670c91a55746fd683a.png",
-    "static/media/sunny.jpeg": "/static/media/sunny.2130e4f934c00d61480c.jpeg",
-    "static/media/police.svg": "/static/media/police.97028ffa2dc278b9ed0b0b946a6a096a.svg",
-    "index.html": "/index.html",
-    "main.766382e3.css.map": "/static/css/main.766382e3.css.map",
-    "main.6596e858.js.map": "/static/js/main.6596e858.js.map",
-    "787.687cdfe9.chunk.js.map": "/static/js/787.687cdfe9.chunk.js.map"
+    "main.css": "/Evidence-Archives/static/css/main.766382e3.css",
+    "main.js": "/Evidence-Archives/static/js/main.fa9707b3.js",
+    "static/js/787.687cdfe9.chunk.js": "/Evidence-Archives/static/js/787.687cdfe9.chunk.js",
+    "static/media/jishnu.png": "/Evidence-Archives/static/media/jishnu.71fe8ed6bde433315e58.png",
+    "static/media/karthik.png": "/Evidence-Archives/static/media/karthik.43c450dfbd7860fc858a.png",
+    "static/media/harshitpic.png": "/Evidence-Archives/static/media/harshitpic.a4670c91a55746fd683a.png",
+    "static/media/sunny.jpeg": "/Evidence-Archives/static/media/sunny.2130e4f934c00d61480c.jpeg",
+    "static/media/police.svg": "/Evidence-Archives/static/media/police.97028ffa2dc278b9ed0b0b946a6a096a.svg",
+    "index.html": "/Evidence-Archives/index.html",
+    "main.766382e3.css.map": "/Evidence-Archives/static/css/main.766382e3.css.map",
+    "main.fa9707b3.js.map": "/Evidence-Archives/static/js/main.fa9707b3.js.map",
+    "787.687cdfe9.chunk.js.map": "/Evidence-Archives/static/js/787.687cdfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.766382e3.css",
-    "static/js/main.6596e858.js"
+    "static/js/main.fa9707b3.js"
   ]
 }
