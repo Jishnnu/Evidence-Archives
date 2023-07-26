@@ -47,16 +47,16 @@ function App() {
 
           <Col xs={10}>
             <Routes>
-              <Route exact path="/" element={<WelcomePage />} />
-              <Route exact path="/form" element={<MyForm />} />
-              <Route exact path="/aboutus" element={<AboutUs />} />
-              <Route exact path="/login" element={<Login />} />
+              <Route exact path="/Evidence-Archives/" element={<WelcomePage />} />
+              <Route exact path="/Evidence-Archives/form" element={<MyForm />} />
+              <Route exact path="/Evidence-Archives/aboutus" element={<AboutUs />} />
+              <Route exact path="/Evidence-Archives/login" element={<Login />} />
               {authUser ? (
-                <Route exact path="/search" element={<Search />} />
-              ) : (<Route exact path="/login" element={<Login />} />
+                <Route exact path="/Evidence-Archives/search" element={<Search />} />
+              ) : (<Route exact path="/Evidence-Archives/login" element={<Login />} />
               )}
-              <Route exact path="/logout" element={<Logout />} />
-              <Route exact path="/thankyou" element={<ThankYouPage />} />
+              <Route exact path="/Evidence-Archives/logout" element={<Logout />} />
+              <Route exact path="/Evidence-Archives/thankyou" element={<ThankYouPage />} />
               <Route path="" element={<div style={{ marginTop: "250px" }}><i size={120} className="fa fa-warning" style={{ color: "red", fontSize: "100px" }} /><h2>Invalid Page Request</h2><h6>Please browse a valid URL</h6></div>} />
             </Routes>
           </Col>
