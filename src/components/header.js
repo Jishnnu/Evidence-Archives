@@ -33,7 +33,7 @@ export default function AppHeader() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" fixed="top" variant="dark">
       <Container>
-        <Navbar.Brand href="/">EVIDENCE ARCHIVES</Navbar.Brand>
+        <Navbar.Brand href="/Evidence-Archives/">EVIDENCE ARCHIVES</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
