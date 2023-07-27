@@ -4,6 +4,6 @@ This repository is dedicated for the development of an Evidence storage website 
 
 This website has been deployed to GitHub Pages. You will find the website under the **_Environments_** section on the right. 
 
-**LINK TO WEBSITE :** 
+**LINK TO WEBSITE :** https://jishnnu.github.io/Evidence-Archives/
 
 **Please note that you will have to insert your Microsoft Azure credentials in _server/index.js_ and your Google Firebase credentials in _src/firebase.js_.**
