@@ -56,8 +56,7 @@ function App() {
               ) : (<Route exact path="/login" element={<Login />} />
               )}
               <Route exact path="/logout" element={<Logout />} />
-              <Route exact path="/thankyou" element={<ThankYouPage />} />
-              <Route path="" element={<div style={{ marginTop: "250px" }}><i size={120} className="fa fa-warning" style={{ color: "red", fontSize: "100px" }} /><h2>Invalid Page Request</h2><h6>Please browse a valid URL</h6></div>} />
+              <Route exact path="/thankyou" element={<ThankYouPage />} />              
             </Routes>
           </Col>
         </Row>
