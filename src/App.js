@@ -47,6 +47,7 @@ function App() {
 
           <Col xs={10}>
             <Routes>
+              <Route exact path="/Evidence-Archives/" element={<WelcomePage />} />
               <Route exact path="/" element={<WelcomePage />} />
               <Route exact path="/form" element={<MyForm />} />
               <Route exact path="/aboutus" element={<AboutUs />} />
@@ -56,7 +57,7 @@ function App() {
               ) : (<Route exact path="/login" element={<Login />} />
               )}
               <Route exact path="/logout" element={<Logout />} />
-              <Route exact path="/thankyou" element={<ThankYouPage />} />              
+              <Route exact path="/thankyou" element={<ThankYouPage />} />
             </Routes>
           </Col>
         </Row>
